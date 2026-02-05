@@ -29,7 +29,7 @@ Telegram-бот для прохождения викторины о беспил
 
 СТРУКТУРА ПРОЕКТА
 
-dron_bot/
+dron_bot/  
 ├── main.py          – основной файл с логикой бота  
 ├── requirements.txt – зависимости проекта  
 ├── runtime.txt      – версия Python для Railway  
