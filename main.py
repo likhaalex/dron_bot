@@ -1,4 +1,5 @@
 import asyncio
+import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram.fsm.state import State, StatesGroup
@@ -7,7 +8,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from datetime import datetime
 
 # Токен вашего бота
-BOT_TOKEN = "TOKEN"
+BOT_TOKEN = os.getenv("TOKEN")
 
 # Инициализация
 bot = Bot(token=BOT_TOKEN)
