@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from datetime import datetime
 
 # Токен вашего бота
-BOT_TOKEN = "8497891676:AAFZ6n2MJcKdV_-MltJB8lie0lCI9fXDRc4"
+BOT_TOKEN = "TOKEN"
 
 # Инициализация
 bot = Bot(token=BOT_TOKEN)
